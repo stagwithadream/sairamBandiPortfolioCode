@@ -106,12 +106,19 @@
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
-
-.resume-btn-div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.contact-btns-div{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 150px;
 }
+.resume-btn-div {
+
+  display: inline-block;
+}
+.left-child{
+  float: right;
+}
+
 
 .blogsite-btn-div {
   width: 100%;

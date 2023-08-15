@@ -12,9 +12,11 @@ export default function TopButton({ theme }) {
       document.body.scrollTop > 30 ||
       document.documentElement.scrollTop > 30
     ) {
-      document.getElementById("topButton").style.visibility = "visible";
+      if (document.getElementById("topButton"))
+        document.getElementById("topButton").style.visibility = "visible";
     } else {
-      document.getElementById("topButton").style.visibility = "hidden";
+      if (document.getElementById("topButton"))
+        document.getElementById("topButton").style.visibility = "hidden";
     }
   }
 

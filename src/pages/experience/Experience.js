@@ -7,6 +7,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import CalendlyWidgetInline from "../../components/CalendlyWidgetInline/CalendlyWidgetInline";
 
 // const experience = {
 // 	title: "Experience",
@@ -185,7 +186,7 @@ class Experience extends Component {
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
-        <TopButton theme={this.props.theme} />
+          <CalendlyWidgetInline/>
       </div>
     );
   }

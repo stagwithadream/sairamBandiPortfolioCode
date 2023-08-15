@@ -9,6 +9,7 @@ import EducationImg from "./EducationImg";
 import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import CalendlyWidgetInline from "../../components/CalendlyWidgetInline/CalendlyWidgetInline";
 
 class Education extends Component {
   render() {
@@ -40,8 +41,9 @@ class Education extends Component {
           <Educations theme={this.props.theme} />
           {/*<Certifications theme={this.props.theme} />*/}
         </div>
+        <CalendlyWidgetInline/>
         <Footer theme={this.props.theme} />
-        <TopButton theme={this.props.theme} />
+
       </div>
     );
   }

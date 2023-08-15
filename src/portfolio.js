@@ -7,25 +7,25 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Sairam's Portfolio",
+  title: "Sairam Bandi's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "sairam bandi, portfolio of sairam bandi, sairam bandi profile, sairam bandi portfolio, sairam bandi resume",
   og: {
     title: "Sairam Bandi Portfolio",
     type: "website",
-    url: "http://sairambandi.info/",
+    url: "https://sairambandi.info/",
   },
 };
 
 //Home Page
-const greeting = {
+const   greeting = {
   title: "Sairam Bandi",
   logo_name: "Sairam Bandi",
   nickname: "Open for Software Developer Full Time and Internship  ",
   subTitle:
-    "A passionate Full Stack Software Developer having an experience of building Web and Mobile applications with Reactjs / Node / Django / Spring Boot / React Native and some other cool libraries and frameworks. ",
+    "A passionate Software Developer skilled in building and deploying Web and Mobile apps using React / Angular / Node / Django / Spring Boot / React Native, with a flair for experimenting with deep learning models. ",
   resumeLink:
-    "https://www.dropbox.com/s/tjh33hmt1a9wo9q/sairamBandiResumeFTCS.pdf?dl=0",
+    "https://drive.google.com/file/d/1kjL4MVz3lBmsK6MAomZsO2qT3x5raSRL/view?usp=drive_link",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ashutosh1919",
 };
@@ -64,14 +64,8 @@ const socialMediaLinks = [
     backgroundColor: "#4082e4", // Reference https://simpleicons.org/?q=instagram
   },
   {
-    name: "Facebook",
-    link: "https://www.facebook.com/sairambandi04/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
     name: "Instagram",
-    link: "https://www.instagram.com/r_a._m/",
+    link: "https://www.instagram.com/rambandii/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   }
@@ -84,9 +78,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Build dynamic frontend using React, Angular and backend with .Net, PHP, Java Spring Boot, Django and Node.",
+        "⚡ Implement logging and monitoring services for efficient tracking and analysis.",
+        "⚡ Develop and deploy RESTful APIs for seamless data exchange.",
       ],
       softwareSkills: [
         {
@@ -149,54 +143,13 @@ const skills = {
       ],
     },
     {
-      title: "ML and DL Integration",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing and integrating highly scalable production ready models for various deep learning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Integrating ML and Deep Learning models with mobile and web app backend's",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-
-    {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud & Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+"⚡ Host and maintain websites with DBs on VM instances on multiple cloud platforms.",
+        "⚡ Deploy deep learning models in the cloud for integration into mobile applications.",
+        "⚡ Configure streaming processes between databases and servers on both GCP and AWS.",
+    "⚡ Develop CI/CD pipelines to optimize deployment workflows.",
 
       ],
       softwareSkills: [
@@ -259,40 +212,91 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Mobile Application Development",
+      fileName: "FullStackImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Build responsive mobile applications for both iOS and Android platforms.",
+        "⚡ Develop solo android apps using Kotlin and cross-platform mobile apps using Flutter & React Native.",
+        "⚡ Implement intuitive user interfaces and integrating seamless user experience.",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#FF2BC2",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
           style: {
-            color: "#F24E1E",
+            color: "#CC6699",
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#FF7C00",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
           },
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "ReactNative",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#000000",
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+      ],
+    },
+    {
+      title: "ML and DL Integration",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Create scalable, production-ready models for several deep learning and statistical use cases.",
+        "⚡ Proficient in handling projects in Computer Vision and NLP domains.",
+        "⚡ Seamlessly integrating Machine Learning and Deep Learning models into mobile and web applications.",
+        "⚡ Implementing effective solutions by staying current with advancements in ML and DL technologies.",
+
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
       ],
@@ -349,18 +353,31 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "University of Southern California",
+      subtitle: "Masters in Computer Science",
+      logo_path: "usc-logo.png",
+      alt_name: "USC",
+      duration: "2021 - 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
-      ],
-      website_link: "http://iiitk.ac.in",
+        "⚡ At USC, I mastered concepts on data structures, algorithms, web & mobile app development and databases, while also exploring my interests on game development, search engines, information retrieval and natural language processing.",
+        "⚡ During my Summer break I interned at Walmart in Bentonville, AR, I played a pivotal role in enhancing team collaboration and efficiency. I designed and developed a web application utilizing React, aimed at simplifying access to our team's metadata for other departments. By enabling consumer teams to retrieve data via customized cURL commands, I facilitated seamless information exchange and querying of team metadata. As a result of this initiative, total meeting time was reduced by one-third, significantly boosting cross-team collaboration and productivity.",
+        ],
+      website_link: "https://www.usc.edu/",
     },
+    {
+      title: "National Institute of Technology Raipur",
+      subtitle: "B.Tech. in Information Technology",
+      logo_path: "nitrr-logo.png",
+      alt_name: "Nit Raipur",
+      duration: "2016 - 2020",
+      descriptions: [
+        "⚡ I undertook courses on programming languages such as C, C++, Java, and Python, which helped me gain proficiency in coding.",
+        "⚡ I learned about coding standards and principles through academia and hands-on experience of building projects.",
+        "⚡ Additionally, I published technical papers, including \"Automated Vehicle Parking Slot Detection System Using Deep Learning,\" IEEE 2020 (B. Sairam et al.), and \"VLDNet: Vision-based Lane Region Detection Network for Intelligent Vehicle System using Semantic Segmentation,\" Springer Computing-SCIE 2021 (B. Sairam et al.).",
+        "⚡ To support fellow programmers, I volunteered as a STEM educator for kids, teaching them MIT Scratch and MIT App Inventor. I also conducted weekly classes on computer fundamentals and algorithms for sophomores and freshmen at my university.",
+      ],
+      website_link: "http://www.nitrr.ac.in/",
+    }
   ],
 };
 
@@ -482,72 +499,81 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked in both the startup world and well-established companies as a software developer, which has helped me hone my skills as a problem solver. I also love to dabble with machine learning models and try to incorporate them into any app I work with.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack Software Development Engineer",
+          company: "Satco Inc",
+          company_url: "https://satco-inc.com/",
+          logo_path: "satco-logo.png",
+          duration: "Oct 2022 - Aug 2023",
+          location: "Los Angeles, CA",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+"I migrated Saturn and Rentals into microservices using PHP Laravel, Java Spring Boot, Angular, and Node. I split functions into separate services, set up monitoring, and revamped Rentals' UI/UX, added SSO login across apps for seamless authentication. This reduced costs by 36%, lowered latency by 20%, and enhanced scalability.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Software Development Engineer",
+          company: "OYO Rooms",
+          company_url: "https://oyorooms.com",
+          logo_path: "oyorooms-logo.png",
+          duration: "Sep 2019 - Sep 2021",
+          location: "Hyderabad, India",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
+"I analyzed User Research team data, worked with diverse teams to improve hotel image quality and boost customer conversions. I collaborated with Data Science to integrate the NIMA model into an image scoring service built using Django and Vue.js. This resulted in improved image quality and increased customer satisfaction. I also crafted an automation solution that enhanced efficiency by 25%, streamlining operations effectively.\n",      color: "#0071C5",  },
+
       ],
     },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
+          title: "Software Development Engineer III",
+          company: "Walmart Inc",
+          company_url: "https://www.walmart.com/",
+          logo_path: "walmart-logo.png",
+          duration: "Jun 2022 - Aug 2022",
           location: "Gurgaon, Haryana",
           description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+"I designed and built a React-based web app to simplify team metadata access and facilitated consumer teams to retrieve data using RESTful APIs. This fostered efficient cross-team collaboration, reducing total meeting time by a third.",          color: "#ee3c26",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
+          title: "Web & Mobile Application Developer",
+          company: "USC Viterbi School of Engineering, Maja's Interaction Lab",
           company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
+            "https://uscinteractionlab.web.app/",
+          logo_path: "interactionlab-logo.png",
           duration: "Nov 2018 - Dec 2018",
-          location: "Work From Home",
+          location: "Los Angeles, CA",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+"I developed a cross-platform mobile app using React Native for video data collection of Infant-Caregiver interactions and contributed to the research by facilitating the collection of video data and analyzing intermodal interactions, expanding knowledge in the field.",          color: "#ee3c26"
+        },
+        {
+          title: "Software Development Engineer",
+          company: "Reliance IT Corp Ltd",
+          company_url:
+              "https://www.ril.com/",
+          logo_path: "ril-logo.png",
+          duration: "May 2019 - Jul 2019",
+          location: "Mumbai, India",
+          description:
+"I designed and developed the Flight Information Display System (FIDS) application using .Net, to improve the aircraft fueling process, making it more manageable and efficient. To ensure the data was correct and up to date, I obtained and cleaned flight data through web scraping from various sources and internal databases. Leveraging machine learning techniques to predict flight delays and showcase precise flight timings provided valuable insights for aircraft fuelers to effectively manage and schedule work.\n",
           color: "#0071C5",
+        },
+        {
+          title: "Research Intern",
+          company: "National Institute of Technology Goa",
+          company_url:
+              "https://www.nitgoa.ac.in/",
+          logo_path: "nitgoa-logo.png",
+          duration: "Jun 2020 - Aug 2020",
+          location: "Goa, India",
+          description:
+             "Under Dr. Venugopal Reddy, I conducted research forecasting air pollution rates in Hyderabad using Time Series Analysis. I developed a precise machine learning model for predicting city air pollution levels. Additionally, I explored the Covid-19 impact on air quality via relative analysis. By linking Covid-19 restrictions to air pollution changes, I offered vital insights into environmental consequences. My contributions advanced scientific comprehension of air pollution dynamics and external influences, aiding sustainable intervention development.",color: "#0071C5",
         },
       ],
     },
@@ -555,60 +581,24 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Executive Member",
+          company: "Entrepreneur-cell",
+          company_url: "https://ecell.nitrr.ac.in/",
+          logo_path: "ecell-logo.png",
+          duration: "Sept 2017 - Jul 2018",
+          location: "Raipur, India",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
+            "I coordinated and executed several conferences in Chhattisgarh and organized Central India’s largest Tech Festival—the Wall Street event in Aavartan.", color: "#ee3c26",
         },
         {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
+          title: "Executive Member",
+          company: "Literati Committee",
+          company_url: "https://www.linkedin.com/company/literati-nit-raipur/?originalSubdomain=in",
+          logo_path: "nitrr-logo.png",
+          duration: "Jul 2018 - Jun 2019",
+          location: "Raipur, India",
           description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-          color: "#000000",
-        },
-        {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
-          location: "Work From Home",
-          description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+"I organized several events, including 'Eklectika'—Central India’s largest cultural festival—and a debate on \"Does digital India imply diminished corruption?\" during Vigilance Awareness Week. Additionally, I undertook an editorial role in the university's annual magazine, 'Shilpi'.\n",          color: "#000000",
         },
       ],
     },
@@ -679,9 +669,9 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    // profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to reach out to me through any of the links provided below. Whether you have inquiries, collaboration opportunities, career prospects, or simply wish to discuss shared passions, I'm excited to connect.",
   },
   blogSection: {
     title: "Blogs",
