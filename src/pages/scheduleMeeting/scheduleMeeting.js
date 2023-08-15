@@ -8,8 +8,8 @@ class ScheduleMeeting extends Component {
     render() {
         const widgetStyles = {
             minWidth: "1500px",
-            marginRight: "13rem",
-            marginLeft: "13rem",
+            // marginRight: "13rem",
+            // marginLeft: "13rem",
               height:"135vh",
              // marginTop: "-20px",
              overflow: "hidden",

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Route, Switch, BrowserRouter as HashRouter, Redirect} from "react-router-dom";
+import {Route, Switch, HashRouter, Redirect} from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
