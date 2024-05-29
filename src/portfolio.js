@@ -521,7 +521,7 @@ const experience = {
           company: "OYO Rooms",
           company_url: "https://oyorooms.com",
           logo_path: "oyorooms-logo.png",
-          duration: "Sep 2019 - Sep 2021",
+          duration: "Aug 2020 - Aug 2021",
           location: "Hyderabad, India",
           description:
 "I analyzed User Research team data, worked with diverse teams to improve hotel image quality and boost customer conversions. I collaborated with Data Science to integrate the NIMA model into an image scoring service built using Django and Vue.js. This resulted in improved image quality and increased customer satisfaction. I also crafted an automation solution that enhanced efficiency by 25%, streamlining operations effectively.\n",      color: "#0071C5",  },
